@@ -43,7 +43,7 @@ const tutorials = [
 const titleCased = listOfTitles => {
   return tutorials.map(title => {
     const token = title.split(' ')
-      const capitalToken = token.map(word => 
+    const capitalToken = token.map(word => 
       word.charAt(0).toUpperCase() + word.slice(1));
       let joinedLetters = capitalToken.join(' ');
       return joinedLetters;
